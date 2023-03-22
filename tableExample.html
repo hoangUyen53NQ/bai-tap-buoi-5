@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ví dụ về table</title>
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+<body>
+    <h2>Ví dụ 1</h2>
+    <style>
+        .table_1{
+            border-collapse: collapse;
+        }
+        .table_1, .tr_1, .th_1, .td_1{
+            border: solid 1px  gainsboro;
+        }
+        .td_2, .th_2{
+            padding: 10px;
+        }
+        .th_1{
+            background-color: orange;
+            color:white;
+        }
+    </style>
+    <table class="table_1">
+        <thead>
+            <tr class="tr_1">
+                <th class="th_1" class="th_2">Hàng 1 Cột 1</th>
+                <th class="th_1" class="th_2">Hàng 1 Cột 2</th>
+                <th class="th_1" class="th_2">Hàng 1 Cột 3</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="tr_1">
+                <td class="td_1" class="td_2">Hàng 2 Cột 1</td>
+                <td class="td_1" class="td_2"> Hàng 2 Cột 2</td>
+                <td class="td_1" class="td_2">Hàng 2 Cột 3</td>
+            </tr>
+            <tr class="tr_1">
+                <td class="td_1" class="td_2">Hàng 3 Cột 1</td>
+                <td class="td_1" class="td_2">Hàng 3 Cột 2</td>
+                <td class="td_1" class="td_2">Hàng 3 Cột 3</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Ví dụ 2</h2>
+    <table class="table_1">
+        <thead>
+            <tr>
+                <th class="th_2">Hàng 1 Cột 1</th>
+                <th class="th_2">Hàng 1 Cột 2</th>
+                <th class="th_2">Hàng 1 Cột 3</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="td_2">Hàng 2 Cột 1</td>
+                <td class="td_2"> Hàng 2 Cột 2</td>
+                <td class="td_2">Hàng 2 Cột 3</td>
+            </tr>
+            <tr>
+                <td class="td_2">Hàng 3 Cột 1</td>
+                <td class="td_2">Hàng 3 Cột 2</td>
+                <td class="td_2">Hàng 3 Cột 3</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
